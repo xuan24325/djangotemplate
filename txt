@@ -1,0 +1,15 @@
+ pip3 install django
+django-admin startproject blogsite
+python -m venv venv
+source venv/bin/activate
+pip3 install django
+python manage.py startapp blog
+(Models…class…def Post…)
+(Settings app…’blog’,)
+python manage.py makemigrations blog
+ python manage.py migrate
+(admin.py From .models import Post / admin.site.register(Post)
+python manage.py runserver
+(Urls.py …)
+(Localhost:8000/admin)
+Python manage.py createsuperuser
